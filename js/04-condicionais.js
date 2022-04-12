@@ -28,7 +28,9 @@ console.log(`aluno: ${aluno}`);
 console.log(`notas: ${nota1} e ${nota2}`);
 console.log(`media: ${media}`);
 
-if( media >= 7){
+let faltas = 10;
+
+if( media >= 7 && faltas < 15 ){
     console.log("aprovado");
 }  else{
         console.log("reprovado");
